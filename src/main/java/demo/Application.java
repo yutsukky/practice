@@ -12,7 +12,7 @@ public class Application {
         SpringApplication.run(Application.class,args);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     String hello(){
         return new WordA().insert()+new WordB().insert();
     }
