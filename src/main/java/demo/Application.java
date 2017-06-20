@@ -14,6 +14,6 @@ public class Application {
 
     @RequestMapping("/")
     String hello(){
-        return "Hello World!";
+        return new WordA().insert()+new WordB().insert();
     }
 }
