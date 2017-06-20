@@ -2,6 +2,6 @@ package demo;
 
 public class WordB {
     public String insert(){
-        return "World";
+        return "World world";
     }
 }
