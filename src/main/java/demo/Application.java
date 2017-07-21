@@ -12,8 +12,8 @@ public class Application {
         SpringApplication.run(Application.class,args);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     String hello(){
-        return "Hello World!";
+        return new WordA().insert()+new WordB().insert()+new WordC().insert();
     }
 }
